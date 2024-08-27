@@ -3,7 +3,7 @@ const https = require('https');
 const port = process.env.PORT || 3000;
 
 const TARGET_URLS = {
-   default: 'https://my.spline.design/balloonexperience-f4df8becf588d109a3db78cfb1fdc3ea/', // Default URL if no match is found
+   default: 'https://lavender-notes-018981.framer.app/', // Default URL if no match is found
 };
 
 function getTargetUrl(req) {
